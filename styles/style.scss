@@ -127,3 +127,76 @@ body {
 /**
  * App code
  */
+
+$slateColor: #7f8c8d;
+$descFont: 15px;
+$titleFont: 30px;
+
+.container {
+    border: 3px solid $slateColor;
+    display: block;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+
+    .headline {
+        color: $slateColor;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .about {
+        display: inline-block;
+        margin-bottom: 15px;
+        p {
+            margin: 0;
+        }
+    }
+
+    .listingItem {
+        margin: auto;
+        margin-bottom: 20px;
+        img {;
+            width: 70%;
+            margin: auto;
+            border: 3px solid $slateColor;
+        };
+
+         p {
+            font-size: $descFont;
+            margin: auto;
+         };
+
+        .title {
+            font-size: $titleFont;
+            font-weight: bold;
+            color: black;
+
+        };
+
+        .descr {
+            font-size: 20px;
+            width: 70%;
+        }
+
+        button {
+            background: $slateColor;
+            outline: none;
+            width: 30px;
+            height: 25px;
+            line-height: 3px;
+            padding: 2px;
+        }
+
+        .seller {
+           color: purple;
+        };
+
+        .price {
+            font-size: 25px;
+            color: green;
+        }
+       
+    }
+}
